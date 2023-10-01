@@ -7,7 +7,9 @@ export default function Navbar(props) {
 <nav className="navbar navbar-expand-lg  bg-body-tertiary" data-bs-theme={`${props.mode}`}>
   <div className="container-fluid">
     {/* <Link className="navbar-brand" to="/">{props.title}</Link> */}
+    {/* <Link className="navbar-brand" to="/">{props.title}</Link> */}
     <a className="navbar-brand" href="/">{props.title}</a>
+
 
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
